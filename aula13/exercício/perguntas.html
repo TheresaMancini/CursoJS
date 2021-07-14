@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Exercícios aula 13</title>
+<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=aMELJQyL88eWaYFpqWKXMUyPjuhfKjNfMKQ8EFsn4oiLP7D8Gg4ozJlttnCGEpf8L0l8_DWazNDA4RHcpXD9im0bLRCtVegusMQJwDo_LPuz8yn1BPt32V1YJ8AQc1H3kW-k92McVa4h8kLTvws7mcNUqqPn0j9ATlonLxIAjPRGNmSPonslfpmTn9mWrAt8Vh_f1HohscIvEA2gan9CvSuiFVFkY5Kg-e--d8p-1PG1b_K4ZRpg0U3vp-wJf-fFaFh6BDiQlxoMhv8BtJEu7jT08EntyAF3Rxc8SzN00-LFDj31r7fSR4v0AOmZoPfY6RkMuc6kKCcUQSboqgmphmi8E92Esg-NrLjzW5zRnaK9M4x73ZC661EKjgkXDxm49Hg2gUdNyixdKmxvIHGcEAOAM7wqMLe66Qv-O_rAlq7VisGYxbmEjn5xbNOEwDn_jKmDbVBgOavpC2MBvRlR-LeR4zDTkjhtL4Dp4oIu-cAyhfjkb5eaEUMHcl4YD4JVVR2KMqGz3BxAnroy_Omxxrc9J8y0HgRW7VuP_Xry7r95r70K__Vs5baAe_2CxYvlN2YpHeLfXYHKfv9PxlkceeJzDCVj6W6ypwqzYrCKIH8rmEMKuDo1iiUE7lu4YCT7-Ov30VwUpkjsyJtiE9MFyvE-gbzQWto1I8SrbXWZR1WWFD7R8MwkafwcUqdS1WOpZ7NlOct52Y3iWZ2uKxMeFAEOBT1lVBaHOhCfstLgjWKiFqHXgqXbfdP_oUOZEqu2lDaeSfExNnuAR2vYZ7aXrg" charset="UTF-8"></script></head>
+<body>
+  
+  <script>
+  const nome = prompt('Digite seu nome completo:');
+  // Tratando meu dado
+  let nomeTratado = nome.replace(" ","");
+  nomeTratado = nomeTratado.toLowerCase();
+
+  document.body.innerHTML += `Seu nome é: ${nome}<br />`;
+  document.body.innerHTML += `Seu nome tem ${nomeTratado.length} letras <br />`;
+  document.body.innerHTML += `A segunda letra do seu nome é: ${nomeTratado[1]}<br />`;
+  document.body.innerHTML += `Qual o primeiro índice da letra LETRA 'a' no seu nome? ${nomeTratado.indexOf('a')}<br />`;
+  document.body.innerHTML += `Qual o último índice da letra LETRA 'a' no seu nome? ${nomeTratado.lastIndexOf('a')}<br />`;
+  document.body.innerHTML += `As últimas 3 letras do seu nome são: ${nome.slice(-3)}<br />`;
+  document.body.innerHTML += `As palavras do seu nome são: ${nome.split(" ")} <br />`;
+  document.body.innerHTML += `Seu nome com letras maiúsculas: ${nome.toUpperCase()} <br />`;
+  document.body.innerHTML += `Seu nome com letras minúsculas: ${nome.toLowerCase()} <br />`;
+  </script>
+</body>
+</html>
