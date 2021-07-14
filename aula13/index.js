@@ -29,3 +29,31 @@ console.log('Theresa'.slice(-3)) // esa
 
 // .toUpperCase() tudo maiusculo
 // .toLowerCase() tudo minusculo
+
+
+// .toString() converte para uma strings
+
+// manipulando numero
+
+// toFixed(2) -> muda o numero de casas decimais de um flot. Mostra até a segunda casa decimal
+// numb.isInteger() -> testa se é um inteiro
+// numb.isFloat() -> testa se é um numero 
+// numb.isNumber() -> retorna se é um numero ou não  
+// Number.isNaN(variavel) -> testa se a variável é um NaN
+
+// imprecisão de numero IEEE 754-2008 precisao dos numero 
+
+num1 = 0.1;
+num2 = 0.7;
+
+console.log(num1+num2) // não da 0.8 da 0.799999999
+
+console.log((num1+num2).toFixed(2)) // mostra 0.8 mas continua sendo 0.79999999
+
+
+parseFloat(num1.toFixed(2)); 
+
+// para resolver esse problema de precisao usar parseFloat  ou Number
+
+
+
