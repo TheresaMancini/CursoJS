@@ -16,4 +16,11 @@
 // let b = [...a ] 
 // também funciona em objeto let b= {...a} isso se chama spread. Eu espalho o valor de a em b.
 
+// Avaliação de curto circuito 
+
+//  valores falsos: false, '', "", ``, null, undefined, NaN
+
+// qualquer outro é avaliado como verdadeiro. 
+
+
 
